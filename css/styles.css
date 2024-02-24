@@ -67,32 +67,39 @@ nav li {
 }
 
 .heroImg {
-    max-width: 550px;
+    max-width: 600px;
     background-color: #9E9EA6;
-    border-radius: 18px;
-    margin: 50px auto;
+    border-radius: 15px;
+    margin: 80px auto;
 }
 
 .pictureMe {
-    border-radius: 25px;
-    max-width: 325px;
+    border-radius: 15px;
+    max-width: 344px;
+}
+
+.portaitName {
+   
+    padding: 10px 0px 10px 0px
 }
 
 .jobTitle {
     color: #0071A5;
+  
 
 }
 
 .aboutSelf {
-    Padding: 5% 10% 15% 10%;
-
-
+    padding-top: 10px;
+    padding-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .button {
-    border-radius: 15;
+    border-radius: 5px;
     background-color: #4A5C71;
-    padding: 18px 35px 18px 35px;
+    padding: 20px;
     border-radius: 5px;
     font-family: "Comfortaa", sans-serif;
     font-size: 24px;
@@ -101,10 +108,18 @@ nav li {
     border: none;
 }
 
+.button:hover {
+    background-color: #0071A5;
+}
+
+a:hover {
+    color: #4A5C71;
+}
+
 .content {
     text-align: center;
-    margin: 0 auto;
-    padding: 50px;
+    
+    padding: 40px 80px 40px 80px;
 }
 
 #mySkills {

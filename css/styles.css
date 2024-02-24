@@ -114,11 +114,11 @@ nav li {
 
 a:hover {
     color: #4A5C71;
+    text-decoration-line:underline;
 }
 
 .content {
     text-align: center;
-    
     padding: 40px 80px 40px 80px;
 }
 
@@ -128,29 +128,36 @@ a:hover {
 
 .flexContainer {
     display: flex;
-    justify-content: space-around;
     padding-bottom: 10%;
     margin-left: 8%;
     margin-right: 8%;
 }
+
 
 .skillCard {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 25%;
-    text-align: start;
 }
 
+
 .picskills {
-    width: 235px;
+    width: 250px;
     padding-bottom: 30px;
 }
 
 h3 {
     color: #0071A5;
     font-size: 25px;
-    padding: 3%;
+    padding: 10px 0px 10px 0px;
+    margin: 0;
+    text-align: center;
+}
+
+.p-layout{
+    margin-left:5%;
+    margin-right: 5%;
 }
 
 #myWork-Grid {

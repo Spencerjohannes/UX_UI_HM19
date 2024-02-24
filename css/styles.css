@@ -306,6 +306,12 @@ h3 {
         padding-bottom: 8%;
     }
 
+    .project-card-top{
+        grid-template-columns: none;
+        margin: 0;
+        padding: 25px 16px 25px 16px;
+    }
+
     .project-card {
         grid-template-columns: none;
         margin: 0;
